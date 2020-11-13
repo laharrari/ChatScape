@@ -1,0 +1,28 @@
+{
+  "name": "chatcord",
+  "version": "1.0.0",
+  "description": "Real time chat app with rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laharrari/ChatCord.git"
+  },
+  "author": "Harrison Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laharrari/ChatCord/issues"
+  },
+  "homepage": "https://github.com/laharrari/ChatCord#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
